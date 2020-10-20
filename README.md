@@ -31,7 +31,7 @@ sudo dd bs=4M if=/dev/mmcblk0 of=myimage.img conv=fsync status=progress
 
 ## Copy the image to new sd card
 ```bash
-sudo dd bs=4M if=myimage.img of=/dev/mmcblk0.img conv=fsync status=progress
+sudo dd bs=4M if=myimage.img of=/dev/mmcblk0 conv=fsync status=progress
 ```
 
 ## Boot from the card 
